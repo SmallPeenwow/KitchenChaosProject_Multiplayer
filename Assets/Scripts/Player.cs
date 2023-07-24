@@ -56,7 +56,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
 
     private void Update()
     {
-        if (IsOwner)
+        if (!IsOwner)
         {
             return;
         }
