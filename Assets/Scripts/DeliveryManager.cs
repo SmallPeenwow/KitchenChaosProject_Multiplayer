@@ -28,7 +28,10 @@ public class DeliveryManager : NetworkBehaviour
 
     private void Update()
     {
-        if (!IsServer) return;
+        if (!IsServer)
+        {
+            return;
+        }
 
         spawnRecipeTimer -= Time.deltaTime;
 
