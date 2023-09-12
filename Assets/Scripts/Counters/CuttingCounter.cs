@@ -86,7 +86,7 @@ public class CuttingCounter : BaseCounter, IHasProgress
         if (HasKitchenObject() && HasRecipeWithInput(GetKitchenObject().GetKitchenObjectSO()))
         {
             CutObjectServerRpc();
-            TestCuttingProgressDoneServerRpc
+            TestCuttingProgressDoneServerRpc();
         }
     }
 
