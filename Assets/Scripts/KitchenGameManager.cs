@@ -73,7 +73,7 @@ public class KitchenGameManager : NetworkBehaviour
     private void NetworkManager_OnClientDisconnectCallback(ulong clientId)
     {
         autoTestGamePausedState = true;
-        TestGamePausedState();
+        //TestGamePausedState();
     }
 
     private void IsGamePaused_OnValueChanged(bool previousValue, bool newValue)

@@ -173,7 +173,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlatesCounter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4627123537143289610, guid: 2c8112a2badbd114d9578f5a140d2e8a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5629993451639774437, guid: 2c8112a2badbd114d9578f5a140d2e8a,
@@ -189,6 +190,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5929158213409026145}
+    - targetCorrespondingSourceObject: {fileID: 5629993451639774439, guid: 2c8112a2badbd114d9578f5a140d2e8a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6121244152263847631}
   m_SourcePrefab: {fileID: 100100000, guid: 2c8112a2badbd114d9578f5a140d2e8a, type: 3}
 --- !u!4 &988872163381322568 stripped
 Transform:
@@ -223,6 +228,22 @@ MonoBehaviour:
   counterTopPoint: {fileID: 988872163381322568}
   plateKitchenObjectSO: {fileID: 11400000, guid: b774baa4f80b73449889dda75192fe20,
     type: 2}
+--- !u!114 &6121244152263847631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3217974469146265331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!1001 &8036221581042740331
 PrefabInstance:
   m_ObjectHideFlags: 0
